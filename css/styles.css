@@ -646,6 +646,7 @@ button {
     justify-content: center;
     align-items: center;
     margin-left: auto;
+    margin-bottom: 16px;
     padding: 0;
     width: 24px;
     height: 24px;
@@ -671,4 +672,77 @@ button {
 .order-service-form {
     display: flex;
     flex-direction: column;
+}
+
+.modal-title {
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+}
+
+.modal.form {
+    display: block;
+    flex-direction: column;
+}
+
+.modal-form-element {
+    margin-bottom: 8px;
+}
+
+.modal-form label {
+    font-size: 12px;
+    line-height: 1, 17;
+    letter-spacing: 0.04em;
+    color: #8E8F99;
+}
+
+.modal-form span {
+    display: block;
+    margin-bottom: 4px;
+}
+
+.modal-input {
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+    outline: transparent;
+    padding-left: 38px;
+}
+
+.modal-input:focus {
+    border-color: var(--accent-color);
+    color: var(--accent-color);
+}
+
+.modal-input:focus+.modal-icon {
+    fill: var(--accent-color);
+}
+
+.modal-icon {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.input-wrap {
+    position: relative;
+}
+
+.checkbox-text {}
+
+.modal-form button {
+    display: block;
+    width: 169px;
+    height: 56px;
+    margin: 24px auto;
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 500;
+    cursor: pointer;
 }
