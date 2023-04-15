@@ -10,10 +10,10 @@
   });
 
   // Закривання вікна по бекдропу
-  refs.modal.addEventListener('click', removeModal)
- function removeModal(e) {
-  refs.modal.classList.add('is-hidden')
-  }
+  //refs.modal.addEventListener('click', removeModal)
+ //function removeModal(e) {
+  //refs.modal.classList.add('is-hidden')
+  //}
   // Закривання вікна по хрестику
   refs.closeModalBtn.addEventListener("click", toggleModal);
     function toggleModal() {
