@@ -678,7 +678,7 @@ button {
     align-items: center;
     justify-content: center;
     margin-left: auto;
-    margin-bottom: 16px;
+    margin-bottom: 24px;
     padding: 0;
     width: 24px;
     height: 24px;
@@ -729,27 +729,30 @@ button {
 }
 
 .modal-form-element {
+    outline: 1px solid tomato;
     margin-bottom: 8px;
 }
 
-.modal-form-element span {
+.modal-form-element label {
     display: block;
     margin-bottom: 4px;
 }
 
 .modal-form-policy {
+    outline: 1px solid tomato;
     margin-bottom: 0;
 }
 
 .modal-form-comment {
+    outline: 1px solid tomato;
     margin-top: 0;
     margin-bottom: 16px;
 }
 
-.modal-form-comment span {
+/* .modal-form-comment span {
     display: block;
     margin-bottom: 4px;
-}
+} */
 
 .modal-form label {
     font-size: 12px;
