@@ -48,6 +48,7 @@ img {
 
 a,
 button {
+    border: none;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -757,6 +758,7 @@ button {
     height: 40px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
+    background-color: #FCFCFC;
     outline: transparent;
     padding-left: 38px;
     font-size: 12px;
@@ -799,6 +801,7 @@ button {
     height: 120px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
+    background-color: #FCFCFC;
     resize: none;
     outline: transparent;
     font-size: 12px;
