@@ -665,7 +665,7 @@ button {
     transform: translate(-50%, -50%) scale(1);
     transition: 300ms linear;
     width: 408px;
-    height: 584px;
+    /* height: 584px; */
     padding: 24px;
     background: #FCFCFC;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -729,7 +729,6 @@ button {
 }
 
 .modal-form-element {
-    outline: 1px solid tomato;
     margin-bottom: 8px;
 }
 
@@ -739,12 +738,10 @@ button {
 }
 
 .modal-form-policy {
-    outline: 1px solid tomato;
     margin-bottom: 0;
 }
 
 .modal-form-comment {
-    outline: 1px solid tomato;
     margin-top: 0;
     margin-bottom: 16px;
 }
@@ -890,7 +887,9 @@ button {
     display: block;
     width: 169px;
     height: 56px;
-    margin: 24px auto;
+    margin-top: 24px;
+    margin-left: auto;
+    margin-right: auto;
     background: #4D5AE5;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
